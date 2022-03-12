@@ -1,0 +1,6 @@
+bin/gn gen out/release \
+    --args="is_official_build=false \
+            skia_use_libjpeg_turbo_decode=false \
+            skia_use_libjpeg_turbo_encode=false \
+            extra_cflags_cc=[\"-frtti\"] \
+        "
